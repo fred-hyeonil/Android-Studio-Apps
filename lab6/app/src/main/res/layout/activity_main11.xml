@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    tools:context=".MainActivity11">
+    <TableRow>
+        <Button android:text="A" />
+        <Button android:text="B"/>
+        <Button android:text="C"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="D"/>
+        <Button android:text="E"/>
+        <Button android:text="F" />
+    </TableRow>
+
+
+</TableLayout>
